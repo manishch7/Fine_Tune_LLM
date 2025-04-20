@@ -1,7 +1,7 @@
 """
 Streamlit app for financial sentiment analysis
 """
-import app as st
+import streamlit as st
 import torch
 import os
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
